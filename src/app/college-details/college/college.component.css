@@ -1,0 +1,150 @@
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.container {
+  width: 80vw;
+  background: #ffffff;
+  box-shadow: 11px 11px 47.6418px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 12.5373px;
+}
+
+img {
+  width: 75vw;
+  border-radius: 10px;
+  margin: 1em 1.2em;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1em;
+}
+
+.tags i,
+.contact i {
+  color: #fb7777;
+}
+
+.tags span {
+  font-size: small;
+}
+
+.rank .nirf {
+  background: #ffc548;
+  border-radius: 3.55586px;
+  padding: 0.2em;
+  margin: 1em;
+}
+
+.rank .local {
+  background: #f6ecd2;
+  border-radius: 3.55586px;
+  padding: 0.2em;
+  margin: 1em;
+}
+
+.contact {
+  margin-bottom: 1em;
+}
+
+.contact span {
+  margin: 0 2em;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.contact i {
+  margin: 0 0.5em;
+}
+
+.colorTags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink,
+.yellow {
+  margin: 1em;
+  text-decoration: none;
+  box-shadow: 5.7438px 5.7438px 12.9236px rgba(0, 0, 0, 0.25);
+  border-radius: 6.17706px;
+}
+
+.colorTags .pink {
+  background: #ff687d;
+  padding: 0.3em 2em;
+}
+
+.colorTags .yellow {
+  background: #e4c877;
+  padding: 0.3em 2em;
+  padding-right: 3em;
+}
+
+.pink a,
+.yellow a {
+  text-decoration: none;
+  color: white;
+}
+
+.pink i,
+.yellow i {
+  padding: 0 0.5em;
+}
+
+.sub-component {
+  margin: 1em 0;
+  background: skyblue;
+  border-radius: 10px;
+  padding: 1em 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: initial;
+}
+
+ul {
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 2em);
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li button {
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: white;
+  padding: 0.2em 2em;
+  /* margin: 0 1em; */
+}
+
+ul li:hover {
+  background: #33cccc;
+  box-shadow: 4.44105px 4.44105px 27.7566px rgba(0, 0, 0, 0.25),
+    3.33079px 8.40597px 84.9937px -7.47197px rgba(0, 0, 0, 0.25);
+  border-radius: 22.4159px;
+  transition: .4s;
+}
+
+ul li.active {
+  background: #33cccc;
+  box-shadow: 4.44105px 4.44105px 27.7566px rgba(0, 0, 0, 0.25),
+    3.33079px 8.40597px 84.9937px -7.47197px rgba(0, 0, 0, 0.25);
+  border-radius: 22.4159px;
+}

@@ -1,0 +1,91 @@
+<body>
+  <div class="container">
+    <div class="img">
+      <img src="{{collegeDetails.coverimage}}" alt="" />
+    </div>
+    <div class="tags">
+      <span>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        "Excellent"
+      </span>
+      <span>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        {{collegeDetails.center}}, {{collegeDetails.state}}
+       
+      </span>
+      <span>
+        <i class="fa fa-flag" aria-hidden="true"></i>
+       {{collegeDetails.institute_type}}
+      </span>
+      <span>
+        <i class="fa fa-trophy" aria-hidden="true"></i>
+        Approved by: {{collegeDetails.affiliated_by}}
+      </span>
+    </div>
+    <div class="rank">
+      <span class="nirf">NIRF Rank #2</span>
+      <span class="local">#in Top management colleges in India</span>
+    </div>
+
+    <div class="sub-component">
+      <div class="heading">
+        <ul>
+          <li class="overview hoverElement" (click)="overviewVisible()">
+            <button>Overview</button>
+          </li>
+          <li class="courses hoverElement" (click)="coursesVisible()">
+            <button>Courses & fee</button>
+          </li>
+          <li class="admission hoverElement" (click)="admissionVisible()">
+            <button>Admission</button>
+          </li>
+          <li class="facilites hoverElement" (click)="facilitesVisible()">
+            <button>Facilites</button>
+          </li>
+          <li class="campus hoverElement" (click)="campusVisible()">
+            <button>Campus</button>
+          </li>
+          <li class="placement hoverElement" (click)="placementVisible()">
+            <button>Placement</button>
+          </li>
+        </ul>
+      </div>
+
+      <app-overview [about] = "collegeDetails.description" class="menu "></app-overview>
+      <app-courses class="menu "></app-courses>
+      <app-admission class="menu "></app-admission>
+      <app-facilites class="menu "></app-facilites>
+      <app-campus class="menu "></app-campus>
+      <app-placement class="menu "></app-placement>
+    </div>
+
+    <div class="contact">
+      <span>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        View contact details
+      </span>
+      <span>
+        <i class="fa fa-file-pdf" aria-hidden="true"></i>
+        Exam details and admission
+      </span>
+    </div>
+    <div class="colorTags">
+      <div class="pink">
+        <a href="#">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          Start Application
+        </a>
+      </div>
+      <div class="yellow">
+        <a href="#">
+          <i class="fa fa-cloud" aria-hidden="true"></i>
+          Brochure
+        </a>
+      </div>
+    </div>
+  </div>
+</body>

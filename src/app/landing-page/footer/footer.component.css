@@ -1,0 +1,33 @@
+* {
+  background: transparent;
+}
+
+.container {
+  height: 40vh;
+  background: #656565;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.copyright p {
+  margin: 1em;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 1em 1.5em;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+body {
+  margin: 10vh 0;
+}
+
+.container {
+  width: 80vw;
+  background: #f6ecd2;
+  box-shadow: 4.18248px 5.01898px 23.8401px 7.11022px rgba(0, 0, 0, 0.25);
+  border-radius: 6.27372px;
+}
+
+h4{
+    padding: .7em;
+}
+
+.container ul{
+    padding-bottom: 7vh;
+}
+
+.container ul li{
+    list-style: circle;
+}

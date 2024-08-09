@@ -1,0 +1,83 @@
+body {
+  margin: 10vh 0;
+}
+
+.container {
+  width: 80vw;
+  background: #ffffff;
+  box-shadow: 4.18248px 5.01898px 23.8401px 7.11022px rgba(0, 0, 0, 0.25);
+  border-radius: 6.27372px;
+  padding: 0.1em 0 5vh 0;
+}
+
+.table {
+  width: 77vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table table tr td {
+  border: none;
+  margin: 1em;
+  padding: 0.5em 2em;
+}
+
+h2 {
+  margin: 1em;
+}
+
+.row1 {
+  display: flex;
+  margin: 1em 0;
+}
+
+.tag {
+  color: #808080;
+  margin: 0 2em;
+  font-weight: 500;
+}
+
+.text {
+  margin: 0 1em;
+  font-weight: 500;
+}
+
+.rating {
+  background: #ffbf40;
+  border-radius: 10.672px;
+  padding: 0.3em 0.5em;
+  font-weight: 500;
+}
+
+p {
+  color: #5c5b5b;
+}
+
+img {
+  height: 10vh;
+  width: 6vw;
+  border-radius: 5px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.more2 {
+  border-radius: 8.60384px;
+  width: 10vw;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  color: white;
+  font-weight: 600;
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 25vh 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.content h2 {
+  font-weight: 600;
+}
+
+.content h3 {
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.content p {
+  color: #7a7474;
+  margin: 0;
+}
+
+.main {
+  height: 60vh;
+  width: 60vw;
+}
+
+.main table tr {
+  height: 20vh;
+}
+
+.main table tr td {
+  position: relative;
+  left: 8%;
+  width: 18vw;
+}
+
+table tr td i {
+  background: white;
+  color: #33cccc;
+}
+
+.text {
+  position: relative;
+  left: -13%;
+  text-align: start;
+  color: #33cccc;
+}

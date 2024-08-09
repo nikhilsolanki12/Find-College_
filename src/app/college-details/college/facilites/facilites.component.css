@@ -1,0 +1,167 @@
+.container {
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  width: 75vw;
+  padding: 1em;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid black;
+  width: 7vw;
+  margin: 0.5em 1.4em;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tag {
+  color: white;
+  padding: 0.2em 0.7em;
+  border-radius: 0 0px 10px 10px;
+  width: 6.89vw;
+  position: relative;
+  bottom: -0.5px;
+  text-align: center;
+}
+
+.hostel {
+  color: #2db5b2;
+}
+.hostel .tag {
+  background: #2db5b2;
+}
+.canteen {
+  color: #f47780;
+}
+.canteen .tag {
+  background: #f47780;
+}
+.gym {
+  color: #7784f4;
+}
+.gym .tag {
+  background: #7784f4;
+}
+.sports {
+  color: #f18040;
+}
+.sports .tag {
+  background: #f18040;
+}
+.wifi {
+  color: #63316d;
+}
+.wifi .tag {
+  background: #63316d;
+}
+.hospital {
+  color: #2db5b2;
+}
+.hospital .tag {
+  background: #2db5b2;
+}
+.library {
+  color: #f47780;
+}
+.library .tag {
+  background: #f47780;
+}
+
+i {
+  margin: 0.5em;
+  font-size: x-large;
+  /* color: green; */
+}
+
+h6 {
+  margin: 0.5em 0;
+}
+
+h3 {
+  margin: 0.6em;
+}
+
+.cube {
+  background: rgba(217, 217, 217, 0.34);
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 2em 1em;
+}
+
+.container .info {
+  margin: 1em;
+}
+
+.cube h4 {
+  padding: 0em 0.5em;
+}
+
+.cube p {
+  padding: 0.5em 1.5em;
+}
+
+.table {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table table {
+  border-collapse: collapse;
+  /* box-shadow: 0 5px 10px; */
+  border: 0.1px solid black;
+  margin: 1em;
+  background-color: white;
+  text-align: center;
+}
+
+.table thead {
+  box-shadow: 0 5px 10px;
+}
+
+.table th {
+  padding: 1em 5em;
+  text-decoration: underline;
+  font-weight: 600;
+  border: none;
+}
+
+.table td {
+  padding: 1em 5em;
+  border: none;
+  color: #525050;
+}
+
+.table tr th span {
+  color: #525050;
+  text-decoration: none;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.more button {
+  padding: 0.5em;
+  border: none;
+  background: rgba(217, 217, 217, 0.34);
+  border-radius: 29px;
+  font-weight: 500;
+}
+
+.more i {
+  font-size: medium;
+}

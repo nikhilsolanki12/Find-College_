@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+nav {
+  height: 6vh;
+  width: 40vmax;
+  background: rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(29.2431px);
+  border-radius: 38.1277px;
+  text-align: start;
+  padding: 0.5em 2em;
+  color: white;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+}
+
+nav i{
+    background: none;
+    color: white;
+  }
+
+input{
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 0 1em;
+    border-radius: 20px;
+}

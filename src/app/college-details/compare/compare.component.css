@@ -1,0 +1,72 @@
+body {
+  margin: 10vh 0;
+}
+
+.container {
+  width: 80vw;
+  background: #ffffff;
+  box-shadow: 4.18248px 5.01898px 23.8401px 7.11022px rgba(0, 0, 0, 0.25);
+  border-radius: 6.27372px;
+}
+
+h3 {
+  padding: 0.5em;
+}
+
+.table {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table table {
+  border-collapse: collapse;
+  margin: 1em;
+  text-align: center;
+}
+
+td {
+  border: none;
+}
+
+.location {
+  font-size: small;
+}
+
+.rqst {
+  padding: 0.3em 0.1em;
+  color: white;
+  background: #33cccc;
+  box-shadow: 3.95548px 4.94435px 19.7774px rgba(0, 0, 0, 0.25);
+  border-radius: 5.93322px;
+  margin: 0.5em;
+  border: none;
+}
+
+.rqst i {
+  color: white;
+}
+
+.package {
+  font-size: x-small;
+}
+
+i {
+  color: #fb7777;
+  margin: 0.2em;
+}
+
+thead {
+  border: none;
+}
+
+.bg {
+  color: white;
+  background: #babfbf;
+  box-shadow: 3.95548px 4.94435px 19.7774px rgba(0, 0, 0, 0.25);
+  border-radius: 5.93322px;
+}
+
+img{
+  border-radius: 50%;
+}

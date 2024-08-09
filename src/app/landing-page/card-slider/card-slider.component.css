@@ -1,0 +1,159 @@
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: transparent;
+}
+
+body{
+  margin: 25vh 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.content h2 {
+  font-weight: 600;
+}
+
+.content h3 {
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.content p{
+  color: #7A7474;
+}
+
+.product{
+  margin: 1em;
+}
+
+.slider-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 65vh;
+  width: 95vw;
+}
+
+.slider-main {
+  position: absolute;
+  width: 100%;
+  left: 14vh;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 55px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: none;
+  font-size: 3em;
+  background: none;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: none;
+  font-size: 3em;
+  background: none;
+}
+
+.item {
+  display: inline-block;
+  width: 20vw;
+  height: 65vh;
+  background: #FFFFFF;
+  box-shadow: 6.79943px 8.49929px 30.5974px rgba(0, 0, 0, 0.25);
+  border-radius: 21.2482px;  position: relative;
+  margin: 0 3.3em;
+  border-radius: 21.2482px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+}
+
+img {
+  width: 4vw;
+  height: 8vh;
+  border-radius: 8.49929px;
+  object-fit: fill;
+}
+
+.college,
+.filed {
+  text-align: center;
+}
+
+.college {
+  font-weight: 100;
+  margin: .2em;
+}
+
+.filed {
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.caption {
+  font-size: small;
+  margin: 1em;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sub {
+  margin-bottom: 1em;
+}
+
+.overall {
+  display: flex;
+  justify-content: space-around;
+  background: #D9D9D9;
+  border-radius: 29.7475px;  
+  width: 17vw;
+  padding: 0.5em;
+}
+
+.box {
+  background: orange;
+  border-radius: 9px;
+  padding: .2em;
+  position: relative;
+  right: 0;
+  font-size: small;
+}
+
+.text {
+  font-size: small;
+  margin: 3em 1em;
+  font-weight: 500;
+}
+
+.name {
+  font-size: large;
+  font-weight: 600;
+}

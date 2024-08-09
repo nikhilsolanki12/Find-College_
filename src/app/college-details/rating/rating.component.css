@@ -1,0 +1,41 @@
+body {
+  margin: 10vh 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30vw;
+  background: #ffffff;
+  box-shadow: 4.18248px 5.01898px 23.8401px 7.11022px rgba(0, 0, 0, 0.25);
+  border-radius: 6.27372px;
+}
+
+.container h3{
+    margin-top: .5em;
+}
+
+.container i {
+  color: black;
+  margin: 0.2em;
+  font-size: large;
+}
+
+.rating{
+    margin: .5em;
+}
+
+.text{
+    padding: 0 1em;
+}
+
+.box {
+  background: #ffbf40;
+  box-shadow: -2.51914px 7.55742px 76.4139px -6.71771px rgba(0, 0, 0, 0.25);
+  border-radius: 9.23685px;
+  color: white;
+  padding: .5em 1em;
+  margin-bottom: 1em;
+}

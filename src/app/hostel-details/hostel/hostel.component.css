@@ -1,0 +1,107 @@
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.pics, .pics .small{
+  display: flex;
+}
+
+.pics .big img{
+  width: 52vw;
+  height: 63vh;
+}
+
+.pics .small img{
+  width: 15vw;
+  height: 19vh;
+  margin: 0.5em;
+}
+
+.card {
+  padding: 1.5em;
+  box-shadow: 4.18248px 5.01898px 23.8401px 7.11022px rgba(0, 0, 0, 0.25);
+  border-radius: 6.27372px;
+}
+
+.r1 .tag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.r1 .rating {
+  color: #9d9d9d;
+  margin: 1em 0 1em 0;
+}
+
+.r1 .rating span {
+  background: #ffbf40;
+  border-radius: 5.4102px;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  color: white;
+}
+
+.tag h3 {
+  font-weight: 700;
+  margin: 0.5em 0 0 0;
+}
+
+.r2 .light {
+  color: #6d6d6d;
+}
+
+.r3 .tag {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em;
+  font-weight: 500;
+}
+.r4 .tag,
+.colorTags {
+  display: flex;
+}
+
+.r4 .rate {
+  color: #ee223e;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.r4 .tag {
+  justify-content: space-between;
+  margin: 0.5em 0 0 0;
+}
+
+.pink,
+.yellow {
+  margin: 0.5em;
+  text-decoration: none;
+  box-shadow: 6.66658px 6.66658px 14.9998px rgba(0, 0, 0, 0.25);
+  border-radius: 6.17706px;
+  width: 7vw;
+  text-align: center;
+  font-size: large;
+}
+
+.colorTags .pink {
+  width: 15vw;
+  padding: 0.2em 1em;
+  background: #ff687d;
+}
+
+.colorTags .yellow {
+  width: 15vw;
+  background: #e4c877;
+  padding: 0.2em 1em;
+}
+
+.pink a,
+.yellow a {
+  text-decoration: none;
+  color: white;
+}

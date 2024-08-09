@@ -1,0 +1,196 @@
+/* === Google Font Import - Poppins === */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 25vh 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.content h2 {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.content h3 {
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.content p{
+  color: #7A7474;
+}
+
+.product {
+  padding: 20px 0;
+}
+
+.slider-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 81vh;
+  width: 95vw;
+}
+
+.slider-main {
+  position: absolute;
+  width: 100%;
+  left: 14vh;
+}
+
+
+.item {
+  display: inline-block;
+  height: 81vh;
+  width: 24vw;
+  position: relative;
+  margin: 17px 25px;
+  border-radius: 4.20369px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.tag {
+  width: 11vw;
+  height: 6vh;
+  background: #ffbf40;
+  box-shadow: 0.859702px 3.43881px 7.73732px rgb(0 0 0 / 25%);
+  border-radius: 7.73732px;
+  /* position: relative; */
+  left: 8vw;
+  top: -10vh;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.first,
+.second,
+.third {
+  position: relative;
+  width: 23vw;
+  height: 16vh;
+  background: #fff;
+  border-radius: 9.45672px;
+  margin: 0.3em;
+  padding: 0.4em;
+  background: rgba(217, 217, 217, 0.54);
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7em;
+  margin: 0.2em 0;
+  background: none;
+}
+
+.exam {
+  font-size: x-large;
+  background: none;
+}
+
+span {
+  background: none;
+}
+
+.btn {
+  font-size: smaller;
+  padding: 0.2em 0.5em;
+  border-radius: 3.11433px;
+  color: white;
+  border: none;
+}
+
+.einfo {
+  background: #33cccc;
+  padding: 0.2em 2.2em;
+}
+
+.form {
+  background: #ff687d;
+}
+
+.bgBox {
+  background: rgba(217, 217, 217, 0.54);
+  border-radius: 2.90006px;
+  padding: 0.2em 0.5em;
+}
+
+.Rs {
+  padding: 0.2em 0.5em;
+  text-align: center;
+}
+
+.more {
+  padding: 0.4em 1em;
+  border-radius: 23px;
+  margin: 0.5em;
+  background-color: white;
+  border: none;
+  color: blue;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+.tag h3 {
+  background: none;
+  font-size: larger;
+}
+
+.button-area{
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 55px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding: 0 0.5em;
+  border: none;
+  font-size: 3em;
+  background: none;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding: 0 0.5em;
+  border: none;
+  font-size: 3em;
+  background: none;
+}

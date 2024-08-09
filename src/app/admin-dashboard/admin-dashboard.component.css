@@ -1,0 +1,36 @@
+.container {
+  width: 93vw;
+  height: 90vh;
+  background: violet;
+ 
+  margin: 2em;
+  padding: 2em;
+}
+
+.main{
+    width: 30vw;
+    height: 80vh;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue{
+    color: blueviolet;
+    margin: 1em;
+}
+
+.mail, .password{
+    margin: .7em;
+}
+
+button{
+    padding: .5em 1em;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

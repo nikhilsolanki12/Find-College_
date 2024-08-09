@@ -1,0 +1,93 @@
+.content .exam {
+  margin: 2em 2.2em;
+  background: #ffffff;
+  border: 1px solid #000000;
+  padding-bottom: 1em;
+}
+
+.exam h6 {
+  margin: 1em 1em;
+}
+
+.exam span{
+  margin: 1em .5em;
+  background: rgba(217, 217, 217, 0.34);
+  padding: 0.2em .5em;
+  border-radius: 7.46785px;
+  font-weight: 500;
+}
+
+.table,
+.table2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.table table,
+.table2 table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px;
+  margin: 1em;
+  background-color: white;
+  text-align: center;
+}
+
+.table thead,
+.table2 thead {
+  box-shadow: 0 5px 10px;
+}
+
+.table th {
+  padding: 1em 11em;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 1em 11em;
+}
+
+.table tr:nth-child(even),
+.table2 tr:nth-child(even) {
+  /* background: rgba(217, 217, 217, 0.28); */
+  background: lightgray;
+}
+
+.cutoff {
+  background: white;
+  width: 73vw;
+  margin: 2em;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+
+.cutoff h5 {
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+.table2 th {
+  padding: 1em 5em;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.table2 td {
+  padding: 1em 5em;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.more button {
+  padding: 0.5em;
+  border: none;
+  background: rgba(217, 217, 217, 0.34);
+  border-radius: 29px;
+  font-weight: 500;
+}

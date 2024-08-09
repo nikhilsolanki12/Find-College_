@@ -1,0 +1,25 @@
+.content p {
+  padding: 0.5em 2em;
+}
+
+.content span {
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.content p span {
+  color: black;
+}
+
+.show {
+  display: initial;
+}
+
+.more {
+  position: relative;
+  bottom: 3vh;
+  left: 2.5vw;
+}
